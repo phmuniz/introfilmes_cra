@@ -1,0 +1,69 @@
+#intro{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    border-bottom: 1px solid #217DA5;
+}
+
+#intro-text{
+    flex: 1;
+    font-size: 18.487px;
+    justify-content: center;
+}
+
+#intro p{
+    font-size: 101.343px;
+    font-weight: 400px;
+    animation: flipTitle 1s;
+}
+
+#intro p strong{
+    font-weight: 700px;
+}
+
+#intro-img{
+    flex: 1;
+    position: relative;
+}
+
+#intro-img img{
+    position: absolute;
+    right: 0;
+    height: 157px;
+    width: 157px;
+    animation: zoomImg 1s;
+}
+
+@keyframes flipTitle {
+    from{
+        transform: rotateX(90deg);
+    }
+    to{
+        transform: rotateX(0deg);
+    }
+}
+
+@keyframes zoomImg {
+    from{
+        transform: scale(1.5);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 900px){
+
+    #intro-text{
+        font-size: 12px;
+    }
+
+    #intro-text p{
+        font-size: 60px;
+    }
+
+    #intro-img img{
+        height: 90px;
+        width: 90px;
+    }
+}

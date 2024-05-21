@@ -1,0 +1,7 @@
+.films-row{
+    display: flex;
+    width: max-content;
+    margin: auto;
+    gap: 60px;
+    padding: 30px;
+}

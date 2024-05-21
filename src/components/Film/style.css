@@ -1,0 +1,23 @@
+.film{
+    width: 203px;
+    height: 290px;
+    background: var(--primary-color) var(--add-img) no-repeat center;
+    background-size: 38px 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    overflow: hidden;
+}
+
+.film:hover{
+    background: var(--primary-color) var(--add-img-hover) no-repeat center;
+    background-size: 38px 38px;
+    border: 1px solid #F4C708;
+}
+
+.picture__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
