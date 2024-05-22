@@ -1,7 +1,7 @@
 .film{
     width: 203px;
     height: 290px;
-    background: var(--primary-color) var(--add-img) no-repeat center;
+    background: #217DA5 url(../../assets/add-img.png) no-repeat center;
     background-size: 38px 38px;
     display: flex;
     align-items: center;
@@ -11,7 +11,7 @@
 }
 
 .film:hover{
-    background: var(--primary-color) var(--add-img-hover) no-repeat center;
+    background: #217DA5 url(../../assets/add-img-hover.png) no-repeat center;
     background-size: 38px 38px;
     border: 1px solid #F4C708;
 }
